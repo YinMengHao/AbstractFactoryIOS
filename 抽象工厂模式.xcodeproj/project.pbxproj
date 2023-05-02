@@ -16,6 +16,13 @@
 		F528EB1929FD6C3100AC0BDA /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB1829FD6C3100AC0BDA /* ______Tests.swift */; };
 		F528EB2329FD6C3100AC0BDA /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB2229FD6C3100AC0BDA /* ______UITests.swift */; };
 		F528EB2529FD6C3100AC0BDA /* ______UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB2429FD6C3100AC0BDA /* ______UITestsLaunchTests.swift */; };
+		F528EB3229FD6C4300AC0BDA /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3129FD6C4300AC0BDA /* AbstractFactory.swift */; };
+		F528EB3429FD6C4D00AC0BDA /* AbstractProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3329FD6C4D00AC0BDA /* AbstractProduct.swift */; };
+		F528EB3629FD6D3F00AC0BDA /* BaseCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3529FD6D3F00AC0BDA /* BaseCellModel.swift */; };
+		F528EB3A29FD6DE800AC0BDA /* ConcreteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3929FD6DE800AC0BDA /* ConcreteFactory.swift */; };
+		F528EB3C29FD6E6800AC0BDA /* YellowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3B29FD6E6800AC0BDA /* YellowCell.swift */; };
+		F528EB3E29FD6F6300AC0BDA /* GreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3D29FD6F6300AC0BDA /* GreenCell.swift */; };
+		F528EB4029FD6FC900AC0BDA /* RedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528EB3F29FD6FC900AC0BDA /* RedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		F528EB1E29FD6C3100AC0BDA /* 抽象工厂模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽象工厂模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F528EB2229FD6C3100AC0BDA /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		F528EB2429FD6C3100AC0BDA /* ______UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		F528EB3129FD6C4300AC0BDA /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		F528EB3329FD6C4D00AC0BDA /* AbstractProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractProduct.swift; sourceTree = "<group>"; };
+		F528EB3529FD6D3F00AC0BDA /* BaseCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellModel.swift; sourceTree = "<group>"; };
+		F528EB3929FD6DE800AC0BDA /* ConcreteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteFactory.swift; sourceTree = "<group>"; };
+		F528EB3B29FD6E6800AC0BDA /* YellowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCell.swift; sourceTree = "<group>"; };
+		F528EB3D29FD6F6300AC0BDA /* GreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCell.swift; sourceTree = "<group>"; };
+		F528EB3F29FD6FC900AC0BDA /* RedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,13 @@
 				F528EB0129FD6C2F00AC0BDA /* AppDelegate.swift */,
 				F528EB0329FD6C2F00AC0BDA /* SceneDelegate.swift */,
 				F528EB0529FD6C2F00AC0BDA /* ViewController.swift */,
+				F528EB3529FD6D3F00AC0BDA /* BaseCellModel.swift */,
+				F528EB3129FD6C4300AC0BDA /* AbstractFactory.swift */,
+				F528EB3329FD6C4D00AC0BDA /* AbstractProduct.swift */,
+				F528EB3929FD6DE800AC0BDA /* ConcreteFactory.swift */,
+				F528EB3B29FD6E6800AC0BDA /* YellowCell.swift */,
+				F528EB3D29FD6F6300AC0BDA /* GreenCell.swift */,
+				F528EB3F29FD6FC900AC0BDA /* RedCell.swift */,
 				F528EB0729FD6C2F00AC0BDA /* Main.storyboard */,
 				F528EB0A29FD6C3100AC0BDA /* Assets.xcassets */,
 				F528EB0C29FD6C3100AC0BDA /* LaunchScreen.storyboard */,
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F528EB3629FD6D3F00AC0BDA /* BaseCellModel.swift in Sources */,
+				F528EB3229FD6C4300AC0BDA /* AbstractFactory.swift in Sources */,
 				F528EB0629FD6C2F00AC0BDA /* ViewController.swift in Sources */,
+				F528EB3A29FD6DE800AC0BDA /* ConcreteFactory.swift in Sources */,
+				F528EB3C29FD6E6800AC0BDA /* YellowCell.swift in Sources */,
+				F528EB3429FD6C4D00AC0BDA /* AbstractProduct.swift in Sources */,
 				F528EB0229FD6C2F00AC0BDA /* AppDelegate.swift in Sources */,
+				F528EB4029FD6FC900AC0BDA /* RedCell.swift in Sources */,
 				F528EB0429FD6C2F00AC0BDA /* SceneDelegate.swift in Sources */,
+				F528EB3E29FD6F6300AC0BDA /* GreenCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
